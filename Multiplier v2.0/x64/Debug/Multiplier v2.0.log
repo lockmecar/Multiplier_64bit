@@ -1,0 +1,19 @@
+﻿  Multiplier v2.0.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\stdfloat(13): warning STL4038: The contents of <stdfloat> are available only with C++23 or later.
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(42,35): warning C4244: инициализация: преобразование "double" в "unsigned __int64", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(250,37): warning C4244: -=: преобразование "double" в "unsigned __int64", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(250,76): warning C4244: -=: преобразование "double" в "unsigned __int64", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(254,19): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(295,30): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(298,29): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(304,30): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(306,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(313,30): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(315,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(316,29): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(322,30): warning C4244: инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(338,43): warning C4244: =: преобразование "double" в "unsigned __int64", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(510,93): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(510,83): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\Multiplier v2.0\Multiplier v2.0.cpp(510,73): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Multiplier v2.0.vcxproj -> C:\Users\User\source\repos\Multiplier v2.0 (64 бит) с интерфейсом\x64\Debug\Multiplier v2.0.exe
