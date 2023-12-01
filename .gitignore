@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+/packages/boost.1.83.0
+/.vs
