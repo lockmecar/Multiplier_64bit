@@ -131,11 +131,23 @@ void manMultPrint(unsigned long long manA, unsigned long long manB, boost::multi
 
     if (addExp) cout << "10" << '.';
     else cout << '1' << '.';
-    for (int i = (manLength * 2) - 1; i >= 0; i--)
+    if (addExp)
     {
-        cout << manR_bit[i];
+        for (int i = (manLength * 2) - 2; i >= 0; i--)
+        {
+            cout << manR_bit[i];
+        }
+        cout << endl;
     }
-    cout << endl;
+    else
+    {
+        for (int i = (manLength * 2) - 1; i >= 0; i--)
+        {
+            cout << manR_bit[i];
+        }
+        cout << endl;
+    }
+    
 }
 
 // Функция для заполнения 128-битной переменной данными из вектора
@@ -164,7 +176,7 @@ unsigned long long manMult(unsigned long long manA, unsigned long long manB, boo
     buf[7] = 0x00;
 
     // Умножение мантис
-    boost::multiprecision::uint128_t man128_r = man128_a * man128_b;
+    boost::multiprecision::uint128_t man128_r = man128_a * man128_b;    
 
     // Нормализация
     buf[15] = 0x02;
@@ -182,7 +194,7 @@ unsigned long long manMult(unsigned long long manA, unsigned long long manB, boo
     man128_r &= (n2 >> (120 - (manLength * 2)));
 
     // Вывод на консоль
-    if (info) manMultPrint(manA, manB, man128_r, addExp, rounding); 
+    if (info) manMultPrint(manA, manB, man128_r, addExp, rounding);
     if (info)
     {
         unsigned long long h1, h2;
