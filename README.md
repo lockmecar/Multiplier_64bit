@@ -5,5 +5,7 @@
 
 # How to use?
 To use the program, you need to open Release.exe in the Release folder.
+
 After opening the program, you will see the input of the number parameters, enter the required parameters and enter the numbers in the desired format.
+
 After pressing ENTER, calculations are performed and you can repeat everything in a circle.
